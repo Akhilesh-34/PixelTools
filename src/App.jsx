@@ -5,6 +5,7 @@ import './App.css';
 import './styles/variables.css';
 import './styles/global.css';
 
+
 function AppContent() {
   return (
     <div className="app-container">
@@ -24,7 +25,7 @@ function AppContent() {
         </div>
 
         <div className="header-right">
-          <a href="/pdf/" className="primary-btn nav-action-btn" style={{ textDecoration: 'none' }}>Launch App</a>
+          <a href="https://pdf-tools-rose.vercel.app/" className="primary-btn nav-action-btn" style={{ textDecoration: 'none' }}>Launch App</a>
         </div>
       </header>
 
@@ -46,11 +47,11 @@ function AppContent() {
       <footer className="app-footer">
         <div className="footer-links" style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap', marginBottom: '16px' }}>
           <Link to="/">PixelTools</Link>
-          <a href="/pdf/">PDF Tools</a>
-          <a href="/image/">Image Tools</a>
-          <a href="/design/">Design Tools</a>
-          <a href="/career/">Career Tools</a>
-          <a href="/playground/">Playground</a>
+          <a href="https://pdf-tools-rose.vercel.app/">PDF Tools</a>
+          <a href="https://image-tools-mauve.vercel.app/">Image Tools</a>
+          <a href="https://design-tools-one.vercel.app/">Design Tools</a>
+          <a href="https://career-tools-phi.vercel.app/">Career Tools</a>
+          <a href="https://playground-tools-seven.vercel.app/">Playground</a>
         </div>
         <div className="footer-links" style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap', fontSize: '0.85rem' }}>
           <Link to="/about">About</Link>

@@ -32,31 +32,31 @@ function Home() {
           <div className="tool-card">
             <h3>PDF Tools</h3>
             <p>Use free online PDF tools to merge, split, compress and convert PDF files. Fast browser-based PDF tools.</p>
-            <a href="/pdf/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View PDF Tools</a>
+            <a href="https://pdf-tools-rose.vercel.app/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View PDF Tools</a>
           </div>
           
           <div className="tool-card">
             <h3>Image Tools</h3>
             <p>Compress, resize, crop and convert images online for free with fast browser-based image tools.</p>
-            <a href="/image/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Image Tools</a>
+            <a href="https://image-tools-mauve.vercel.app/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Image Tools</a>
           </div>
           
           <div className="tool-card">
             <h3>Design Tools</h3>
             <p>Free browser-based design tools for colors, palettes, CSS gradients, shadows and buttons.</p>
-            <a href="/design/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Design Tools</a>
+            <a href="https://design-tools-one.vercel.app/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Design Tools</a>
           </div>
           
           <div className="tool-card">
             <h3>Career Tools</h3>
             <p>Build a professional resume and use practical career tools to prepare for your next job opportunity.</p>
-            <a href="/career/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Career Tools</a>
+            <a href="https://career-tools-phi.vercel.app/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Career Tools</a>
           </div>
           
           <div className="tool-card">
             <h3>Playground</h3>
             <p>Explore free interactive games, generators, randomizers and fun browser-based tools.</p>
-            <a href="/playground/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Playground</a>
+            <a href="https://playground-tools-seven.vercel.app/" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>View Playground</a>
           </div>
 
         </div>
