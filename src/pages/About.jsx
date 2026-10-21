@@ -18,7 +18,7 @@ const About = () => {
           The PixelTools Vision
         </h3>
         <p style={{ fontSize: '1.05rem', color: 'var(--text-color, #333)', marginBottom: '1.5rem', lineHeight: 1.7, textAlign: 'left' }}>
-          Every day, millions of people use online converters and generators that require file uploads, place artificial limits on free users, inject watermarks, or track activity across the web. 
+          Every day, millions of people use online converters and generators that require file uploads, place artificial limits on free users, inject watermarks, or track activity across the web.
           <strong> PixelTools</strong> was engineered to challenge that status quo. By leveraging high-performance browser technology, we provide an all-in-one suite of specialized toolkits that process everything client-side.
         </p>
 
@@ -59,25 +59,25 @@ const About = () => {
       {/* Creator & Portfolio Section */}
       <div style={{ padding: '2rem 1.5rem', background: 'var(--surface-color, #ffffff)', borderRadius: '16px', border: '1px solid var(--border-color, #BFC9D1)', textAlign: 'center', boxShadow: '0 4px 16px rgba(0,0,0,0.04)' }}>
         <h3 style={{ fontSize: '1.3rem', marginBottom: '0.75rem', color: 'var(--text-color, #333)' }}>
-          Created with ❤️ by Akhilesh
+          Created By Akhil
         </h3>
         <p style={{ fontSize: '1rem', color: 'var(--text-secondary, #666)', marginBottom: '1.5rem', lineHeight: 1.6, maxWidth: '600px', margin: '0 auto 1.5rem auto' }}>
           Passionate about building intuitive, performant, and privacy-respecting web applications. Discover more projects, experiments, and engineering work on my portfolio.
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <a
-            href="https://portfolio-akhilesh.vercel.app/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="primary-btn"
-            style={{ 
-              display: 'inline-flex', 
-              alignItems: 'center', 
-              gap: '0.5rem', 
-              padding: '0.8rem 1.75rem', 
-              textDecoration: 'none', 
-              fontWeight: 600, 
-              borderRadius: '8px' 
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              padding: '0.8rem 1.75rem',
+              textDecoration: 'none',
+              fontWeight: 600,
+              borderRadius: '8px'
             }}
           >
             <span>Visit My Portfolio</span>
@@ -89,11 +89,11 @@ const About = () => {
           </a>
           <Link
             to="/"
-            style={{ 
-              display: 'inline-flex', 
-              alignItems: 'center', 
-              padding: '0.8rem 1.5rem', 
-              textDecoration: 'none', 
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              padding: '0.8rem 1.5rem',
+              textDecoration: 'none',
               borderRadius: '8px',
               border: '1px solid var(--border-color, #BFC9D1)',
               background: 'transparent',
