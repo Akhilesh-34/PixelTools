@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
+import About from './pages/About';
 import './App.css';
 import './styles/variables.css';
 import './styles/global.css';
@@ -32,7 +33,7 @@ function AppContent() {
       <main className="app-main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<div style={{ textAlign: 'center', padding: '100px' }}><h2>About PixelTools</h2><p>Your privacy-first tools ecosystem.</p></div>} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={
             <div style={{ textAlign: 'center', padding: '100px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <img src="/Wolf-404.svg" alt="404 Error" style={{ width: '250px', maxWidth: '100%', marginBottom: '2rem' }} />
